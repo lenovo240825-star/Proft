@@ -1,0 +1,17 @@
+# React dependencies and build files
+frontend/node_modules/
+frontend/dist/
+
+# Java build files
+backend/target/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
