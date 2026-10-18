@@ -18,7 +18,8 @@ public class CorsConfig {
                         .allowedOrigins(
                                 "http://localhost:5173",
                                 "http://127.0.0.1:5173",
-                                "https://akash-portfolio-fullstack-8azh8ttqk-akash-34a9.vercel.app"
+                                "https://akash-portfolio-fullstack-8azh8ttqk-akash-34a9.vercel.app",
+                                "https://akash-portfolio-fullstack-j6hibf6sq-akash-34a9.vercel.app"
                         )
                         .allowedMethods("GET", "POST", "OPTIONS")
                         .allowedHeaders("*");
